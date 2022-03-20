@@ -110,11 +110,6 @@ func handleRequest() {
 	route.Run(":8080")
 }
 
-func setupLogOutput() {
-	f, _ := os.Create("gin.log")
-	gin.DefaultWriter = io.MultiWriter(f, os.Stdout)
-}
-
 func main() {
 	handleRequest()
 }
