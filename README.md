@@ -9,7 +9,7 @@
 
 In this code, I am going ot explain about, how we can do curd operation in go lang using gin-gonic framework without using any database. 
 
-We will create a gin-gonic project by Running  this command `go mod init project_name` .
+We will create a gin-gonic project by Running  this command `go mod init project_name` and `go mod tidy`.
 
 Step 1 :: We will create a struct to define the format of data to be store. 
 
